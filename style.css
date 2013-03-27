@@ -1,0 +1,90 @@
+/* 
+	CSS reset 
+*/
+html,body,div,span,
+applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+dd,dl,dt,li,ol,ul,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol,ul {
+	list-style: none;
+}
+q:before,q:after,
+blockquote:before,blockquote:after {
+	content: "";
+}
+
+
+
+/*
+	HTML
+*/
+body {
+/*	font-family: Helvetica, Arial, sans-serif;*/
+  	font-family: 'Monaco', monospace;
+  	font-size: 12px;
+  	font-weight: bold;
+  	color: #0b4cb7;
+  	line-height: 2em;
+  	
+  	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #EDEDED 0%, #FFFFFF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #EDEDED 0%, #FFFFFF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #EDEDED 0%, #FFFFFF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #EDEDED), color-stop(1, #FFFFFF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #EDEDED 0%, #FFFFFF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #EDEDED 0%, #FFFFFF 100%);
+
+  	padding: 3em;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+em {
+	font-style: italic;
+}
+
+a, a:visited { 
+	color: #0b4cb7;
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #;
+}
+	 
+a:hover {
+	border-bottom: 2px solid #000000;
+} 
