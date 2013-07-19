@@ -42,8 +42,8 @@ body {
   	font-family: 'Monaco', monospace;
   	font-size: 12px;
   	font-weight: bold;
-  	color: #99FFCC;
-    background-color: #336699;
+  	color: #f3723f;
+    background-color: #ffea00;
   	line-height: 2em;
   	
   	padding: 3em;
@@ -62,12 +62,12 @@ em {
 }
 
 a, a:visited { 
-	color: #99FFCC;
+	color: #8b3919;
 	text-decoration: none;
 	padding-bottom: 2px;
 	border-bottom: 2px solid #;
 }
 	 
 a:hover {
-	border-bottom: 2px solid #FFF;
+	border-bottom: 2px solid #8b3919;
 } 
